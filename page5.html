@@ -42,3 +42,43 @@
           </li>
         </div>
   </nav>
+
+  <div>
+    <form action="/action_page.php">
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name..." />
+  <br>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..." />
+      <br>
+      <label for="Email">Email</label>
+      <input type="text" id="Email" name="Email" placeholder="Your email..." />
+      <br>
+      <label for="Reason">Reason for filling out this form</label>
+      <select id="Reason" name="Reason">
+        <option value="Q">Questions</option>
+        <option value="JA">Job Oppurtunity</option>
+        <option value="S">Suggestions</option>
+        <option value="LR">Leaving Review</option>
+        <option value="OT">Other...</option>
+  
+      </select>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">If there is any other information I need to know, please list in full detail in below ...</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+        <input type="submit" value="Submit" />
+    </form>
+  </div>
+  
+  <body>
+  
+  </body>
+  
+  </html>
